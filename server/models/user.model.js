@@ -15,7 +15,7 @@ const UserSchema = new mongoose.Schema({
   },
   hashed_password: {
     type: String,
-    required: "Password is required!"
+    required: "Password is required! Please type your password"
   },
   salt: String,
   updated: Date,
