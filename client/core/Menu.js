@@ -23,7 +23,7 @@ const Menu = withRouter(({history}) => (
       </Typography>
       <div>
         <Link to="/">
-          <IconButton aria-label="Pocetna strana" style={isActive(history, "/")}>
+          <IconButton aria-label="Home" style={isActive(history, "/")}>
             <HomeIcon/>
           </IconButton>
         </Link>
